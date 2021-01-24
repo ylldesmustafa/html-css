@@ -4,14 +4,14 @@ h1{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: xx-large;
   color: gray;
-  text-align: center
+  text-align: center;
 }
 
 h2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: large;
   color: gray;
-  text-align: center
+  text-align: center;
 }
 
 h5 {
@@ -30,19 +30,34 @@ h6 {
 
 body {
   text-align: center;
-  background-image: url(./Images/pinkbackground.jpg);
+  background-color: #f4c2c2; 
 }
 
 p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: medium;
-  color: gray
-  text-align: center
+  color: gray;
+  text-align: center;
+}
+
+.side-menu{
+  list-style: none;
+  border: 1px gray solid;
+  border-radius: 10px;
+  width: 300px;
+  padding: 40px;
+}
+
+.side-menu li {
+  font-size: 18px;
+  line-height: 2.4em;
+  border-bottom: dotted 1px gray;
 }
 
 ul {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: medium;
-  color: gray
-  text-align: center
+  color: gray;
+  display: inline-block;
+  text-align: left;
 }
