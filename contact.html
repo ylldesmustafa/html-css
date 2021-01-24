@@ -6,6 +6,34 @@
     <title>Contact</title>
 </head>
 <body>
+    <div id="header" class="card">
+        <h1>Let's Get in Touch</h1>
+        <h6>Fill out the contact form below to get in touch with me!</h6>
+    </div>
+
+    <div id="main">
+        <form action="process.php">
+            <div>
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name">
+            </div>
     
+            <div>
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email">
+            </div>
+            <br>
+            <br>
+            <div>
+                <label for="message">Message</label><br>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+              </div>
+    
+         <input type="submit" value="Submit">
+         <button type="reset">Reset</button>
+    </div>
+
+     <footer id="footer">
+        <p class="text-center">Copyright &copy;Ylldes Mustafa's website 2021.</p>
 </body>
 </html>
