@@ -61,3 +61,29 @@ ul {
   display: inline-block;
   text-align: left;
 }
+
+/* Smartphones */
+@media(max-width: 500px) {
+  body{
+    background: #f4c2c2;
+  }
+  .side-menu {
+    width: 100px;
+  }
+  .message {
+   rows="10";
+  }
+  }
+
+/* Tablet */
+@media(max-width: 800px) {
+  body{
+    background: #f4c2c2;
+  }
+}
+
+/* Desktop */
+@media(max-width: 1200px) {
+  body{
+    background: #f4c2c2;
+  }
