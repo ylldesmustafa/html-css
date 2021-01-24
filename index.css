@@ -1,0 +1,48 @@
+
+
+h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: xx-large;
+  color: gray;
+  text-align: center
+}
+
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  color: gray;
+  text-align: center
+}
+
+h5 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+  color: gray;
+  text-align: center;
+}
+
+h6 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+  color: gray;
+  text-align: center;
+}
+
+body {
+  text-align: center;
+  background-image: url(./Images/pinkbackground.jpg);
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  color: gray
+  text-align: center
+}
+
+ul {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  color: gray
+  text-align: center
+}
